@@ -74,8 +74,7 @@ public class TestJdbcDriver2 extends TestCase {
         .replace("c:", "");
     dataFilePath = new Path(dataFileDir, "kv1.txt");
     dataTypeDataFilePath = new Path(dataFileDir, "datatypes.txt");
-    standAloneServer = "true".equals(System
-        .getProperty("test.service.standalone.server"));
+    standAloneServer = true;//"true".equals(System.getProperty("test.service.standalone.server"));
   }
 
   @Override
