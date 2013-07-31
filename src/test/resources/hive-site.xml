@@ -102,7 +102,7 @@
 
 <property>
   <name>test.data.files</name>
-  <value>${user.dir}/../data/files</value>
+  <value>/tmp/test-hivejdbc/data/files</value>
   <description></description>
 </property>
 
